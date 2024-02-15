@@ -1,0 +1,73 @@
+@media(min-width: 768px){
+   .news-input {
+    width: 50%;
+   }
+}
+body, html {
+   height: 100%;
+   margin: 0;
+   font-family: Arial, sans-serif;
+ }
+ 
+ .login-form {
+   height: 400px;
+   width: 500px;
+   margin: 100px auto;
+   padding: 20px;
+   background: #f3f3f3;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .login-form h1 {
+   font-size: 50px;
+   text-align: center;
+   color: #333;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ 
+ .login-form .content {
+   margin-top: 50px;
+ }
+ 
+ .login-form .input-field {
+   margin-bottom: 20px;
+ }
+ 
+ .login-form input[type="email"],
+ .login-form input[type="password"] {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+   box-sizing: border-box; 
+ }
+ 
+ .login-form .action button {
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+   background-color: #529aed;
+   color: white;
+   cursor: pointer;
+   margin-right: 20px;
+   width: 207px;
+
+ }
+ 
+ /* .login-form .action button:last-child {
+   margin-right: 0;
+ } */
+ 
+ .login-form .link { /*Forgot your password*/
+   display: block;
+   text-align: center;
+   margin-top: 20px;
+ }
+ 
+ body {
+   background: url('img/login-page-background.webp') no-repeat center center fixed;
+   background-size: cover;
+   z-index: -1; /*puts in background*/
+ }
+ 
