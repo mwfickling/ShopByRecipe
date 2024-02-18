@@ -33,7 +33,7 @@ function handleOnLoad(){
             
             <div>
                 <h1>The Pinnacle of Culinary <span class="text-warning">Exploration</span></h1>
-             <p class="lead my-4">Welcome to Shop by Recipe! Explore our diverse collection of over 1,000 recipes with intuitive search options to satisfy any craving. Plus, join the Shop by ReciPeoples club for exclusive weekly recipe coupons. Dive in and discover your next favorite dish today!</p>
+             <p class="lead my-4">Welcome to Shop by Recipe! Explore our diverse collection with thousands of recipes and intuitive search options to satisfy any craving. Plus, join the Shop by ReciPeoples club for exclusive weekly recipe coupons. Dive in and discover your next favorite dish today!</p>
              <button href="#" class="btn btn-primary btn-lg">Join Now!</button>
             </div>
             <img class="img-fluid w-50 d-none d-lg-block" src="./img/oopsies.png" alt="">

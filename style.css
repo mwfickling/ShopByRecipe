@@ -54,11 +54,6 @@ body, html {
    width: 207px;
 
  }
- 
- /* .login-form .action button:last-child {
-   margin-right: 0;
- } */
- 
  .login-form .link { /*Forgot your password*/
    display: block;
    text-align: center;
