@@ -14,10 +14,11 @@ function handleOnLoad(){
                     <a href="recipe.html" class="nav-link text-light ">Recipes</a>
                 </li>
                 <li class="nav-items">
-                    <a href="accountInfo.html" class="nav-link text-light id=luckyLink">I'm Feeling Lucky</a>
+                    <a href="accountInfo.html" class="nav-link text-light id=luckyLink">Settings</a>
                 </li>
-              
-                
+                <li class="nav-items">
+                <a href="accountInfo.html" class="nav-link text-light id=luckyLink">Admin (test)</a>
+            </li>
                 <li class="nav-items">
                     <a href="login.html" class="nav-link text-light ">Sign Up / Login</a>
                 </li>
@@ -51,10 +52,16 @@ function handleOnLoad(){
               </div>
         </div>
     </div>
-</section>`
+</section>
+<footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+          <p class="lead">Copyright &copy; CrimsonTech Creations </p>
+          <a class="position-absolute bottom-0 end-0 p-5">
+            <i class="bi bi-arrow-up-circle h1"></i>
+          </a>
+        </div>
+      </footer>`
 page.innerHTML = html;
 }
-function loadPage(){
-    
-}
+
 
