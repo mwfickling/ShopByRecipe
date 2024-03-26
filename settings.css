@@ -1,0 +1,145 @@
+.login-form {
+    height: 400px;
+    width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #f3f3f3;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #333;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .login-form .content {
+    margin-top: 50px;
+  }
+  
+  .login-form .input-field {
+    margin-bottom: 20px;
+  }
+  
+  .login-form input[type="email"],
+  .login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; 
+  }
+  
+  .login-form .action button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #529aed;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+    width: 207px;
+ 
+  }
+  .login-form .link { /*Forgot your password*/
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  body {
+    background: url('img/login-page-background.webp') no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1; /*puts in background*/
+  }
+  .sbrAnalytics-container {
+   background-color: #f9f9f9; 
+   padding: 15px;
+   border-radius: 5px;
+ }
+ 
+ .sbrAnalytics-title {
+   color: #333; 
+   margin-bottom: 15px;
+ }
+ 
+ .sbrAnalytics-table {
+   width: 100%; 
+   border-collapse: collapse;
+ }
+ 
+ .sbrAnalytics-table th,
+ .sbrAnalytics-table td {
+   padding: 8px;
+   text-align: left;
+   border-bottom: 1px solid #ddd; 
+ }
+ 
+ .sbr-settings-sidebar {
+   background-color: #f8f9fa; 
+   padding: 20px;
+   width: 250px; /* Width of the sidebar */
+   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+   height: 100%; /* Full-height sidebar */
+   overflow-x: hidden; /* Disable horizontal scroll */
+   overflow-y: auto; /* Enable vertical scroll */
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   z-index: 1000; /* Ensures the sidebar remains on top */
+ }
+ 
+ .sbr-settings-link {
+   padding: 10px 15px;
+   text-decoration: none;
+   font-size: 18px;
+   color: #333;
+   display: block;
+ }
+ 
+ .sbr-settings-link:hover {
+   color: #007bff; 
+   background-color: #e9ecef; 
+ }
+ 
+ .sbr-settings-dropdown {
+   padding-left: 20px; 
+ }
+ 
+ #settingsContent {
+   margin-left: 250px; 
+   padding: 20px;
+ }
+ /* Style for the settings content area */
+#settingsContent {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for each section within the settings content */
+.dietary-section h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.dietary-section > div {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.dietary-section h3 {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.dietary-section p {
+    margin: 0;
+    color: #666;
+}

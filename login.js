@@ -15,7 +15,7 @@ let html = `
                         <a href="recipe.html" class="nav-link text-light ">Recipes</a>
                     </li>
                     <li class="nav-items">
-                        <a href="#feelingLucky" class="nav-link text-light ">I'm Feeling Lucky</a>
+                        <a href="accountInfo.html" class="nav-link text-light ">Admin TEST</a>
                     </li>
                     <li class="nav-items">
                         <a href="login.html" class="nav-link text-light ">Sign Up / Login</a>

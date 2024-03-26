@@ -14,7 +14,7 @@ function handleOnLoad(){
                     <a href="recipe.html" class="nav-link text-light ">Recipes</a>
                 </li>
                 <li class="nav-items">
-                    <a href="https://randomgenerate.io/random-website-generator" class="nav-link text-light id=luckyLink">I'm Feeling Lucky</a>
+                    <a href="accountInfo.html" class="nav-link text-light id=luckyLink">I'm Feeling Lucky</a>
                 </li>
               
                 

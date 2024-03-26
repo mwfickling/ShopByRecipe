@@ -65,4 +65,127 @@ body, html {
    background-size: cover;
    z-index: -1; /*puts in background*/
  }
+ .sbrAnalytics-container {
+  background-color: #f9f9f9; 
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.sbrAnalytics-title {
+  color: #333; 
+  margin-bottom: 15px;
+}
+
+.sbrAnalytics-table {
+  width: 100%; 
+  border-collapse: collapse;
+}
+
+.sbrAnalytics-table th,
+.sbrAnalytics-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd; 
+}
+
+.sbr-settings-sidebar {
+  background-color: #f8f9fa; 
+  padding: 20px;
+  width: 250px; /* Width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  height: 100%; /* Full-height sidebar */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow-y: auto; /* Enable vertical scroll */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Ensures the sidebar remains on top */
+}
+
+.sbr-settings-link {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #333;
+  display: block;
+}
+
+.sbr-settings-link:hover {
+  color: #007bff; 
+  background-color: #e9ecef; 
+}
+
+.sbr-settings-dropdown {
+  padding-left: 20px; 
+}
+
+/* Style for the settings content area */
+#settingsContent {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for each section within the settings content */
+.dietary-section h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.dietary-section > div {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.dietary-section h3 {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.dietary-section p {
+  margin: 0;
+  color: #666;
+}
+/* Style for the add recipe form */
+.add-recipe-form {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+}
+
+.add-recipe-form h2 {
+  text-align: center;
+}
+
+.add-recipe-form form {
+  display: grid;
+  grid-gap: 15px;
+}
+
+.add-recipe-form input, .add-recipe-form select, .add-recipe-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-recipe-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+
+
  
