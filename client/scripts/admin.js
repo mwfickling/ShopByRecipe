@@ -48,11 +48,15 @@ function handleOnLoad() {
                     <td>256</td>
                 </tr>
                 <tr>
-                    <td>Weekly New Customers</td>
+                    <td>New Customers</td>
                     <td>5</td>
                 </tr>
                 <tr>
-                    <td>Weekly Orders</td>
+                    <td>Total Orders</td>
+                    <td>393</td>
+                </tr>
+                <tr>
+                    <td>New Orders</td>
                     <td>34</td>
                 </tr>
             </tbody>
